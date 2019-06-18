@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightblue;
+}
+
+*{
+  border: 1px solid red;
+}
+
+.wrapper{
+  margin: 0 auto;
+  height: 500px;
+  width: 100%;
+  min-width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav{
+  height: 100px;
+  background-color: blue;
+  min-width: 80%;
+  max-width: 100%;
+  display: flex;
+
+}
+
+.main{
+  display: flex;
+  height: auto;
+    background-color: red;
+ width: 80%;
+}
+
+.footer{
+  height: 50px;
+    background-color: green;
+      width: 60%;
+}
+
+.footer2{
+  height: 50px;
+    background-color: blue;
+      width: 80%;
+}
+.footer3{
+  height: 50px;
+    background-color: red;
+      width: 100%;
+}
+.footer4{
+  height: 50px;
+    background-color: green;
+      width: 50%;
+}
+
+img{
+  width: 100%;
+  height:auto;
+}
+.logo1{
+flex-basis: 70%;
+height:30px;
+font-size: 50px;
+color: white;
+
+}
+
+.logo2{
+width:15%;
+height:30px;
+font-size: 20px;
+color: white;
+}
+
+.logo3{
+width:15%;
+height:30px;
+font-size: 20px;
+color: white;
+}
+
+.leftCol,
+.centerCol,
+.rightCol{
+  width: calc(33%-20px);
+  height:auto;
+}
+
+.leftCol{
+  background-color: white;
+  border: 1px solid red;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo1{
+  font-size: 30px;
+
+  }
+}
